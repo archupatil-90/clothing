@@ -6,22 +6,29 @@
     <title> clothing index</title>
     <link rel="stylesheet" href="clothing.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
-
+<link rel="stylesheet" href="mobile.css">
 </head>
 <body>
-    <header class="bg-header" >
-        <!-- <div class="bg-header"> -->
+    <header  >
         <nav class="navbar">
-<div class="container">
     <a class="navbar-logo">
         <h2>sixteen
         <em>clothing</em></h2>
     </a>
-    <div class="navbar-nav">
+
+    <div id="id1" class="toggle" onclick="menu1()">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+
+    </div>
+    <div class="navbar-nav" id="id2">
+       <i class="far fa-times-circle" id="id3" onclick="cross()"></i>
+
 
         <ul class="list">
             <li class="list-li"> <a class=" link" href="index.html" target="#">home</a></li>
-            <li class="list-li"> <a class=" link" href="" target="#">our products</a></li>
+            <!-- <li class="list-li"> <a class=" link" href="product.html">our products</a></li> -->
             <li class="list-li"> <a class=" link" href="about.html" target="#">about us</a></li>
             <li class="list-li"> <a class=" link" href="contact.html" target="#">contact us</a></li>
 
@@ -288,7 +295,6 @@
             
         - Design: <a>TemplateMo</a></p>
 </footer>
-
- 
+<script src="javascript/style.js"></script>
 </body>
 </html>
